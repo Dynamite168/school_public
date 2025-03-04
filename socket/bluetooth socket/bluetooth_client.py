@@ -1,8 +1,9 @@
-import socket
+import socket, bluetooth
 client_soc = socket.socket(family=socket.AF_BLUETOOTH, type=socket.SOCK_STREAM, proto=socket.BTPROTO_RFCOMM)
 
-address = 'f4:ce:23:b2:ba:8c'
+address = "f4:ce:23:b2:ba:8c"
 port = 4
+print(bluetooth.lookup_name(address))
 client_soc.connect((address, port))
 print('Connected to: ' + str(address))
 client_soc.sendall(b'Hello from client!')
