@@ -1,0 +1,109 @@
+body {
+        background-color: #f8f9fa;
+    }
+    
+    .login-card {
+        max-width: 400px;
+        background-color: #e0e0e0;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .login-bar {
+        margin-bottom: 1.5rem;
+    }
+    
+    .login-btn {
+        width: 100%;
+        background-color: #b7cbe4;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+    
+    .login-btn:hover {
+        background-color: #9bb6db;
+    }
+    
+    .btn-link {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        color: #3b83c5;
+    }
+    
+    .btn-link:hover {
+        text-decoration: underline;
+        color: #2a6ba0;
+    }
+
+    .button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.action-button {
+  background-color: #e6f0ff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 250px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #d0e5ff;
+}
+
+.main-container {
+        text-align: center;
+        padding: 2rem;
+        font-family: sans-serif;
+      }
+      
+      .section-title {
+        background-color: #e0e0e0;
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 25px;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      
+      .orders-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        justify-items: center;
+        margin-bottom: 2rem;
+      }
+      
+      .order-card {
+        background-color: #d9d9d9;
+        padding: 1rem;
+        border-radius: 12px;
+        width: 100%;
+        max-width: 300px;
+      }
+      
+      .order-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 1rem;
+        text-align: left;
+        row-gap: 0.5rem;
+      }
+      
+      .back-link a {
+        text-decoration: none;
+        color: #6495ed;
+        font-size: 0.9rem;
+      } 
